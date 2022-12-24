@@ -1,0 +1,15 @@
+body{
+    background-image: radial-gradient(black,white,green,yellow,brown,blue,red,black);
+animation: round infinite 0.25s;
+}
+    @keyframes round {
+
+        0%{ 
+            background-image: radial-gradient(black,white,green,yellow,brown,blue,red,black);
+        }
+       100%{
+        background-image: radial-gradient(black,red,blue,yellow,green,white,black)
+       }
+            }
+
+    
